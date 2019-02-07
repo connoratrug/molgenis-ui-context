@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="4">
+
+  <testsuite name="test"
+    errors="1" failures="0" hostname="" id="" package="test" skipped="3"
+    tests="4" time="0.003000" timestamp="Wed, 30 Jan 2019 08:36:16 GMT">
+  
+    <testcase name="display navbar test" classname="test" time="0.003000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Test / display navbar test]:
+
+  ReferenceError: browser is not defined
+    at Object.display navbar test (/Users/connor/Code/molgenis-ui-context/tests/e2e/specs/test.js:9:5)
+    at Module.call (/Users/connor/Code/molgenis-ui-context/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/connor/Code/molgenis-ui-context/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/connor/Code/molgenis-ui-context/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/connor/Code/molgenis-ui-context/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/connor/Code/molgenis-ui-context/node_modules/q/q.js:796:13)
+    at /Users/connor/Code/molgenis-ui-context/node_modules/q/q.js:556:49
+    at runSingle (/Users/connor/Code/molgenis-ui-context/node_modules/q/q.js:137:13)
+    at flush (/Users/connor/Code/molgenis-ui-context/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="display footer test" classname="test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="show cookiewall and hide on click" classname="test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="wil not show cookiewall after click" classname="test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

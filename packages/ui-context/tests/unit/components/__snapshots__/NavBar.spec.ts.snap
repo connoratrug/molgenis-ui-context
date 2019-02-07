@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar.vue should match the snapshot 1`] = `
+<nav class="navbar navbar-light bg-light navbar-expand-md"><a href="/menu/main/home" class="navbar-brand"><img src="Logo_Black_Small.png" class="molgenis-navbar-logo"></a> <button type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler collapsed"><span class="navbar-toggler-icon"></span></button>
+  <div id="navbar-content" class="collapse navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+      <!---->
+      <li class="nav-item dropdown"><a id="importdata" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">
+          Import data
+        </a>
+        <drop-down-items-stub parent="[object Object]" items="[object Object],[object Object]" depth="0"></drop-down-items-stub>
+      </li>
+      <li class="nav-item active"><a href="/menu/main/navigator" class="nav-link">
+          Navigator
+        </a></li>
+      <li class="nav-item"><a href="/menu/main/dataexplorer?selectedEntityType=sys_md_EntityType" class="nav-link">
+          Data Explorer
+        </a></li>
+      <li class="nav-item dropdown"><a id="dataintegration" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">
+          Data Integration
+        </a>
+        <drop-down-items-stub parent="[object Object]" items="[object Object],[object Object],[object Object]" depth="0"></drop-down-items-stub>
+      </li>
+      <li class="nav-item dropdown"><a id="admin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">
+          Admin
+        </a>
+        <drop-down-items-stub parent="[object Object]" items="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" depth="0"></drop-down-items-stub>
+      </li>
+    </ul>
+    <ul class="navbar-nav justify-content">
+      <!---->
+    </ul>
+    <ul class="navbar-nav justify-content-end">
+      <li class="nav-item"><a href="https://molgenis.gitbooks.io/molgenis/content/" target="_blank" class="nav-link">
+          Help
+        </a></li>
+      <li class="nav-item">
+        <form id="logout-form" method="post" action="/logout" class="form-inline"><button id="signout-button" type="button" class="btn btn-outline-secondary">
+            Sign out
+          </button></form>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="test"
+    errors="0" failures="0" hostname="" id="" package="test" skipped="0"
+    tests="4" time="13.21" timestamp="Thu, 07 Feb 2019 10:44:40 GMT">
+  
+    <testcase name="display navbar test" classname="test" time="6.644" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="display footer test" classname="test" time="1.684" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="show cookiewall and hide on click" classname="test" time="2.260" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="wil not show cookiewall after click" classname="test" time="2.624" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
